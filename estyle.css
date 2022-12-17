@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,600;1,300&family=Rubik+Spray+Paint&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    min-height: 200vh;
+
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(180deg, #275dc280 0%, #1d20b66b 100%), url(hero1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: .1px;
+    position: relative;
+}
+
+.container-text{
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+
+}
+
+.hero__title{
+    font-size: 4rem;
+   
+}
+
+.hero__copy{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__cta{
+    display: inline-block;
+    background: #fff;
+    text-decoration: none;
+    color: #257dc2;
+    padding: 15px 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero__cta:hover{
+    background: #257dc2;
+    color: #fff;
+}
+
+.hero__wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+
